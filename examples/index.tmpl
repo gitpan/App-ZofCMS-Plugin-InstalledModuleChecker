@@ -1,0 +1,13 @@
+{
+    body => \'index.tmpl',
+    title => '',
+
+    plugins => [
+        qw/InstalledModuleChecker/,
+    ],
+    plug_installed_module_checker => [
+        qw/Image::Resize Foo::Bar::Baz Carp/,
+    ],
+
+}
+
