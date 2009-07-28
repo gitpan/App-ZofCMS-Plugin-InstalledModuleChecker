@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::InstalledModuleChecker;
 use warnings;
 use strict;
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 sub new { bless {}, shift }
 sub process {
@@ -117,6 +117,7 @@ not a particular module is installed.
 =head1 AUTHOR
 
 'Zoffix, C<< <'zoffix at cpan.org'> >>
+(L<http://haslayout.net/>, L<http://zoffix.com/>, L<http://zofdesign.com/>)
 
 =head1 BUGS
 
