@@ -3,7 +3,7 @@ package App::ZofCMS::Plugin::InstalledModuleChecker;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 sub new { bless {}, shift }
 sub process {
@@ -32,6 +32,8 @@ sub process {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
